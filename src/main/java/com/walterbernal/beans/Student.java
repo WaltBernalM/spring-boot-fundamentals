@@ -5,7 +5,7 @@ public class Student {
   private String lastName;
 
   public Student() {
-    super();
+    // super();
   }
 
   public Student(String firstName, String lastName) {
@@ -27,7 +27,7 @@ public class Student {
   }
 
   public void setLastName(String lastName) {
-    this.firstName = lastName;
+    this.lastName = lastName;
   }
 
   @Override
